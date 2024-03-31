@@ -4,19 +4,19 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "alzheimer"
+project_name = "GenomeA"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/utilities/_init__.py",
-    f"src/{project_name}/utilities/common.py",
+    f"src/{project_name}/utils/_init__.py",
+    f"src/{project_name}/utils/common.py",
     f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/configuration_manager.py",
+    f"src/{project_name}/config/config.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/entity/entity_configuration.py",
+    f"src/{project_name}/entity/entity.py",
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",

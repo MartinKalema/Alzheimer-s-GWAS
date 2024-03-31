@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Genomics-For-Alzheimer"
 AUTHOR_USER_NAME = "MartinKalema"
-SRC_REPO = "alzheimer"
+SRC_REPO = "GenomeA"
 AUTHOR_EMAIL = "kalema.martin@students.mak.ac.ug"
 
 setuptools.setup(
